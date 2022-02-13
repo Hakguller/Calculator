@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Calculator</title>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <form action="form">
+            <input type="text" name="text" class="text">
+
+        </form>
+
+        <table>
+
+            <tr>
+                <td><input type="button" class="button" onclick="clearAll()" value="C"></td>
+                <td><input type="button" class="button" onclick="back()" value="<"></td>
+                <td><input type="button" class="button" onclick="operation('/')" value="/"></td>
+                <td><input type="button" class="button" onclick="operation('*')" value="*"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="button" onclick="operation(7)" value="7"></td>
+                <td><input type="button" class="button" onclick="operation(8)" value="8"></td>
+                <td><input type="button" class="button" onclick="operation(9)" value="9"></td>
+                <td><input type="button" class="button" onclick="operation('-')" value="-"></td>
+            </tr>
+
+
+            <tr>
+                <td> <input type="button" class="button" onclick="operation(4)" value="4"></td>
+                <td> <input type="button" class="button" onclick="operation(5)" value="5"></td>
+                <td> <input type="button" class="button" onclick="operation(6)" value="6"></td>
+                <td> <input type="button" class="button" onclick="operation('+')" value="+"></td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="button" onclick="operation(1)" value="1"></td>
+                <td> <input type="button" class="button" onclick="operation(2)" value="2"></td>
+                <td> <input type="button" class="button" onclick="operation(3)" value="3"></td>
+                <td rowspan="2"> <input type="button" class="button" id="equals" onclick="equal()" value="="></td>
+            </tr>
+
+            <tr>
+
+                <td colspan="2"> <input type="button" class="button" id="zero" onclick="operation(0)" value="0"></td>
+                <td> <input type="button" class="button" onclick="" value=","></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

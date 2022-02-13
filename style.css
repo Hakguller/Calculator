@@ -1,0 +1,40 @@
+body{
+   background-color: rgb(32, 17, 46);
+}
+
+#page {
+    height: auto;
+    width: 210px;
+    background-color: rgb(94, 95, 155);
+    padding: 25px;
+    position: relative;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 10%;
+    box-shadow: 2px 2px 6px #000;
+    
+}
+
+.button {
+    padding: 10px;
+    margin: 2px;
+    width: 45px;
+}
+
+#equals {
+    height: 90px;
+}
+
+#zero {
+    width: 100px;
+}
+
+.text {
+    
+    opacity: 70%;
+    width: 198px;
+    position: relative;
+    left: 6px;
+    height: 30px;
+    margin: 10px 0px;
+}
